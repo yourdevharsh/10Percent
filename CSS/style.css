@@ -1,9 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    background: red;
 }
 
-h1 {
-    color: white;
+body {
+    padding: 1.5em;
+}
+
+header {
+    padding: 1em;
+}
+
+nav ul li {
+    padding: 0.2em;
+}
+
+h1, h2, h3 {
+    padding: 0.4em 0;
+}
+
+p {
+    padding: 0.3em;
+}
+
+input {
+    border-radius: 15%;
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    padding: 5px 10px;
+    margin: 5px;
 }
