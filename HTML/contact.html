@@ -1,19 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-</head>
-<body>
+  </head>
+  <body>
     <a href="mailto:yourdevharsh@gmail.com">Email</a>
     <a href="tel:+919760315940">Phone</a>
     <h3>How to join:</h3>
     <ol>
-        <li>Fix your ethics</li>
-        <li>Join discord</li>
-        <li>Take role</li>
-        <li>Change the world</li>
+      <li>Fix your ethics</li>
+      <li>Join discord</li>
+      <li>Take role</li>
+      <li>Change the world</li>
     </ol>
-</body>
+
+    <form action="/enter" method="post">
+      <div>
+        <label for="fname">Username:</label>
+        <input type="text" name="fname" id="fname" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required />
+      </div>
+      <div>
+        <input type="radio" name="gender" id="gmale" value="male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gfemale" value="female" />
+        <label for="gender">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" name="skills" id="swrite" value="writing" />
+        <label for="skills">Writing</label>
+        <input type="checkbox" name="skills" id="sread" value="reading" />
+        <label for="skills">Reading</label>
+        <input type="checkbox" name="skills" id="sspeak" value="speaking" />
+        <label for="skills">Speaking</label>
+        <input type="checkbox" name="skills" id="sbuild" value="building" />
+        <label for="skills">Building</label>
+        <input type="checkbox" name="skills" id="screate" value="creating" />
+        <label for="skills">Creating</label>
+        <input type="checkbox" name="skills" id="sothers" value="others" />
+        <label for="skills">Others</label>
+      </div>
+      <div>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+          <option value="alien">Alien</option>
+          <option value="india">India</option>
+          <option value="US">US</option>
+          <option value="Russia">Russia</option>
+          <option value="China">China</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="" id="" cols="40" rows="5" placeholder="Enter your thoughts...."></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
