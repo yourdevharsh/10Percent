@@ -11,8 +11,13 @@ header {
     padding: 1em;
 }
 
+nav ul {
+    display: flex;
+}
+
 nav ul li {
-    padding: 0.2em;
+    padding: 0.2em 0.5em;
+    list-style-type: none;
 }
 
 h1, h2, h3 {
